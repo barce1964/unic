@@ -22,7 +22,7 @@
     position: absolute;
     top: 200px;
     left: -10px;
-    width: 400px;
+    width: 250px;
     height: 20px;
     border-radius: 100%;
     background: #398CA5;
@@ -58,12 +58,12 @@
 }
     
 .uni__wheel:nth-child(1) {
-    /* animation: .8s uni-wheel-1 linear infinite; */
+    animation: .8s uni-wheel-1 linear infinite;
 }
 .uni__wheel:nth-child(2) {
     left: 217px;
     transform: rotate(220deg);
-    /* animation: .8s uni-wheel-2 linear infinite; */
+    animation: .8s uni-wheel-2 linear infinite;
 }
 .uni__wheel:nth-child(1) .uni__needle:nth-child(1) {
     position: absolute;
@@ -308,7 +308,7 @@
     border-left: 4px solid #27292B;
     border-top: 4px solid #27292B;
     transform: rotate(-95deg);
-    /* animation: .8s uni-fo linear infinite; */
+    animation: .8s uni-fo linear infinite;
   }
 
   .uni__head-tube {
@@ -321,7 +321,7 @@
     border-width: 27px 3px 0;
     transform: rotate(-10deg);
     box-shadow: 0 3px 0 0 #EF425A;
-    /* animation: .8s uni-head-tube linear infinite; */
+    animation: .8s uni-head-tube linear infinite;
   }
 .uni__head-tube:before {
     content: '';
@@ -354,7 +354,7 @@
     height: 20px;
     background: #27292B;
     transform: rotate(-15deg);
-    /* animation: .8s uni-helm linear infinite; */
+    animation: .8s uni-helm linear infinite;
 }
 .uni__helm:before {
     content: '';
@@ -425,7 +425,7 @@
     border: 3px solid #27292B;
     border-radius: 100% 100% 0 0;
     transform: rotate(20deg);
-    /* animation: .8s uni-lock linear infinite; */
+    animation: .8s uni-lock linear infinite;
 }
 .uni__lock:before {
     content: '';
@@ -457,7 +457,7 @@
     transform: rotate(0deg);
     width: 124px;
     height: 170px;
-    /* animation: .8s uni-tubes linear infinite; */
+    animation: .8s uni-tubes linear infinite;
 }
 
 .uni__man {
@@ -466,7 +466,7 @@
     left: 280px;
     width: 300px;
     height: 400px;
-    /* animation: .8s uni-man linear infinite; */
+    animation: .8s uni-man linear infinite;
 }
 
 .uni__butt {
@@ -623,7 +623,7 @@
     border-radius: 20px 20px 90% 0;
     transform-origin: left 22px;
     transform: rotate(-58deg);
-    /* animation: .8s uni-back-leg linear infinite; */
+    animation: .8s uni-back-leg linear infinite;
     z-index: 1;
 }
 .uni__back-leg:before {
@@ -648,7 +648,7 @@
     background: #4A0A23;
     transform-origin: -3px top;
     transform: rotate(101deg);
-    /* animation: .8s uni-back-leg-shin linear infinite; */
+    animation: .8s uni-back-leg-shin linear infinite;
 }
 .uni__back-leg:before .uni__shin:before {
     content: '';
@@ -717,7 +717,7 @@
     border-radius: 10px 100% 2px 0;
     transform-origin: 5px top;
     transform: rotate(-30deg);
-    /* animation: .8s uni-back-leg-ked linear infinite; */
+    animation: .8s uni-back-leg-ked linear infinite;
 }
 .uni__back-leg:before .uni__ked:before {
     content: '';
@@ -731,7 +731,7 @@
     border-radius: 2px 6px 2px 2px;
     transform-origin: left 5px;
     transform: rotate(-10deg);
-    /* animation: .8s uni-front-leg-ked-nose linear infinite; */
+    animation: .8s uni-front-leg-ked-nose linear infinite;
 }
 .uni__back-leg:after .uni__ked:after {
     content: '';
@@ -750,12 +750,11 @@
     top: 40px;
     left: 15px;
     width: 50px;
-    /* width: 28px; */
     height: 133px;
     border-radius: 100% 0;
     background: #D63942;
     transform: rotate(15deg);
-    /* animation: .8s uni-shirt linear infinite; */
+    animation: .8s uni-shirt linear infinite;
     z-index: 5;
 }
 .uni__shirt:before {
@@ -822,7 +821,7 @@
     width: 15px;
     height: 45px;
     transform-origin: 30px -12px;
-    /* animation: .8s uni-arm linear infinite; */
+    animation: .8s uni-arm linear infinite;
     z-index: 5;
 }
 .uni__arm:after {
@@ -884,7 +883,7 @@
     border-right: 2px solid transparent;
     transform: rotate(139deg);
     transform-origin: bottom center;
-    /* animation: .8s uni-forearm linear infinite;  */
+    animation: .8s uni-forearm linear infinite;
 }
 .uni__forearm:before {
     content: '';
@@ -919,7 +918,7 @@
     border-radius: 3px 3px 0 0;
     transform: rotate(181deg);
     transform-origin: center top;
-    /* animation: .8s uni-hand linear infinite; */
+    animation: .8s uni-hand linear infinite;
 }
 .uni__hand:before {
     content: '';
@@ -952,7 +951,7 @@
     height: 45px;
     transform-origin: 30px -8px;
     transform: rotate(-10deg);
-    /* animation: .8s uni-back-arm linear infinite; */
+    animation: .8s uni-back-arm linear infinite;
     z-index: 1;
 }
 .uni__arm:nth-child(1):before {
@@ -1011,7 +1010,7 @@
     border-right: 2px solid transparent;
     transform: rotate(135deg);
     transform-origin: bottom center;
-    /* animation: .8s uni-back-forearm linear infinite;  */
+    animation: .8s uni-back-forearm linear infinite;
 }
 .uni__arm:nth-child(1):before .uni__forearm:before {
     content: '';
@@ -1046,7 +1045,7 @@
     border-radius: 3px 3px 0 0;
     transform: rotate(163deg);
     transform-origin: center top;
-    /* animation: .8s uni-back-hand linear infinite; */
+    animation: .8s uni-back-hand linear infinite;
 }
 .uni__arm:nth-child(1):before .uni__hand:before {
     content: '';
@@ -1081,7 +1080,7 @@
     border-radius: 0 100%;
     z-index: 10;
     transform: rotate(20deg); 
-    /* animation: .8s uni-head linear infinite; */
+    animation: .8s uni-head linear infinite;
 }
 .uni__head:before {
     content: '';
@@ -1353,8 +1352,8 @@
     height: 60px;
     border-radius: 100% 100% 0 100%;
     background: white;
-    /* animation: .8s uni-cloud linear infinite;
-    animation-delay: -.2s; */
+    animation: .8s uni-cloud linear infinite;
+    animation-delay: -.2s;
     opacity: .6;
 }
 .uni__cloud-1:before {
@@ -1386,8 +1385,8 @@
     height: 34px;
     border-radius: 100% 100% 100% 0;
     background: white;
-    /* animation: .8s uni-cloud linear infinite;
-    animation-delay: -.5s; */
+    animation: .8s uni-cloud linear infinite;
+    animation-delay: -.5s;
     opacity: .6;
 }
 .uni__cloud-2:before {
@@ -1419,8 +1418,8 @@
     height: 34px;
     border-radius: 100% 100% 100% 0;
     background: white;
-    /* animation: .8s uni-cloud linear infinite;
-    animation-delay: -.8s; */
+    animation: .8s uni-cloud linear infinite;
+    animation-delay: -.8s;
     opacity: .6;
 }
 .uni__cloud-3:before {
