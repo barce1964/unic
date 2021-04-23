@@ -58,12 +58,12 @@
 }
     
 .uni__wheel:nth-child(1) {
-    animation: .8s uni-wheel-1 linear infinite;
+    /* animation: .8s uni-wheel-1 linear infinite; */
 }
 .uni__wheel:nth-child(2) {
     left: 217px;
     transform: rotate(220deg);
-    animation: .8s uni-wheel-2 linear infinite;
+    /* animation: .8s uni-wheel-2 linear infinite; */
 }
 .uni__wheel:nth-child(1) .uni__needle:nth-child(1) {
     position: absolute;
@@ -232,12 +232,12 @@
 
 .uni__star {
     position: absolute;
-    top: 137px;
+    top: 135px;
     left: 0px;
     width: 15px;
     height: 15px;
     background: #C73149;
-    transform: rotate(114deg);
+    transform: rotate(192deg);
     border-radius: 100%;
     animation: .8s uni-star linear infinite;
     z-index: 3;
@@ -281,7 +281,7 @@
     height: 5px;
     background: #27292B;
     transform-origin: center center;
-    transform: rotate(-170deg);
+    transform: rotate(-253deg);
     animation: .8s uni-pedal linear infinite;
 }
 
@@ -308,7 +308,7 @@
     border-left: 4px solid #27292B;
     border-top: 4px solid #27292B;
     transform: rotate(-95deg);
-    animation: .8s uni-fo linear infinite;
+    /* animation: .8s uni-fo linear infinite; */
   }
 
   .uni__head-tube {
@@ -321,7 +321,7 @@
     border-width: 27px 3px 0;
     transform: rotate(-10deg);
     box-shadow: 0 3px 0 0 #EF425A;
-    animation: .8s uni-head-tube linear infinite;
+    /* animation: .8s uni-head-tube linear infinite; */
   }
 .uni__head-tube:before {
     content: '';
@@ -354,7 +354,7 @@
     height: 20px;
     background: #27292B;
     transform: rotate(-15deg);
-    animation: .8s uni-helm linear infinite;
+    /* animation: .8s uni-helm linear infinite; */
 }
 .uni__helm:before {
     content: '';
@@ -425,7 +425,7 @@
     border: 3px solid #27292B;
     border-radius: 100% 100% 0 0;
     transform: rotate(20deg);
-    animation: .8s uni-lock linear infinite;
+    /* animation: .8s uni-lock linear infinite; */
 }
 .uni__lock:before {
     content: '';
@@ -457,7 +457,7 @@
     transform: rotate(0deg);
     width: 124px;
     height: 170px;
-    animation: .8s uni-tubes linear infinite;
+    /* animation: .8s uni-tubes linear infinite; */
 }
 
 .uni__man {
@@ -466,7 +466,7 @@
     left: 280px;
     width: 300px;
     height: 400px;
-    animation: .8s uni-man linear infinite;
+    /* animation: .8s uni-man linear infinite; */
 }
 
 .uni__butt {
@@ -479,7 +479,7 @@
     border-radius: 2px 0 0 20px;
     transform: rotate(28deg);
     transform-origin: bottom right;
-    animation: .8s uni-butt linear infinite;
+    /* animation: .8s uni-butt linear infinite; */
     z-index: 5;
 }
 
@@ -492,7 +492,7 @@
     background: #4A0A23;
     border-radius: 20px 20px 90% 0;
     transform-origin: left 22px;
-    transform: rotate(-34deg);
+    transform: rotate(-70deg);
     animation: .8s uni-front-leg linear infinite;
     z-index: 5;
 }
@@ -515,7 +515,7 @@
     height: 60px;
     background: #4A0A23;
     transform-origin: -3px top;
-    transform: rotate(98deg);
+    transform: rotate(140deg);
     animation: .8s uni-front-leg-shin linear infinite;
 }
 .uni__front-leg:before .uni__shin:before {
@@ -584,7 +584,7 @@
     border-bottom: 3px solid white;
     border-radius: 10px 100% 2px 0;
     transform-origin: 5px top;
-    transform: rotate(-56deg);
+    transform: rotate(-71deg);
     animation: .8s uni-front-leg-ked linear infinite;
 }
 .uni__front-leg:before .uni__ked:before {
@@ -754,7 +754,7 @@
     border-radius: 100% 0;
     background: #D63942;
     transform: rotate(15deg);
-    animation: .8s uni-shirt linear infinite;
+    /* animation: .8s uni-shirt linear infinite; */
     z-index: 5;
 }
 .uni__shirt:before {
@@ -816,12 +816,12 @@
 
 .uni__arm {
     position: absolute;
-    top: 85px;
+    top: 78px;
     left: 45px;
     width: 15px;
     height: 45px;
     transform-origin: 30px -12px;
-    animation: .8s uni-arm linear infinite;
+    /* animation: .8s uni-arm linear infinite; */
     z-index: 5;
 }
 .uni__arm:after {
@@ -883,7 +883,7 @@
     border-right: 2px solid transparent;
     transform: rotate(139deg);
     transform-origin: bottom center;
-    animation: .8s uni-forearm linear infinite;
+    /* animation: .8s uni-forearm linear infinite; */
 }
 .uni__forearm:before {
     content: '';
@@ -918,7 +918,7 @@
     border-radius: 3px 3px 0 0;
     transform: rotate(181deg);
     transform-origin: center top;
-    animation: .8s uni-hand linear infinite;
+    /* animation: .8s uni-hand linear infinite; */
 }
 .uni__hand:before {
     content: '';
@@ -945,13 +945,13 @@
 
 .uni__arm:nth-child(1) {
     position: absolute;
-    top: 83px;
-    left: 55px;
+    top: 77px;
+    left: 53px;
     width: 15px;
     height: 45px;
     transform-origin: 30px -8px;
     transform: rotate(-10deg);
-    animation: .8s uni-back-arm linear infinite;
+    /* animation: .8s uni-back-arm linear infinite; */
     z-index: 1;
 }
 .uni__arm:nth-child(1):before {
@@ -1010,7 +1010,7 @@
     border-right: 2px solid transparent;
     transform: rotate(135deg);
     transform-origin: bottom center;
-    animation: .8s uni-back-forearm linear infinite;
+    /* animation: .8s uni-back-forearm linear infinite; */
 }
 .uni__arm:nth-child(1):before .uni__forearm:before {
     content: '';
@@ -1045,7 +1045,7 @@
     border-radius: 3px 3px 0 0;
     transform: rotate(163deg);
     transform-origin: center top;
-    animation: .8s uni-back-hand linear infinite;
+    /* animation: .8s uni-back-hand linear infinite; */
 }
 .uni__arm:nth-child(1):before .uni__hand:before {
     content: '';
@@ -1072,15 +1072,15 @@
 
 .uni__head {
     position: absolute;
-    top: -10px;
-    left: 65px;
+    top: -12px;
+    left: 60px;
     width: 50px;
     height: 58px;
     background: #EFA47B;
     border-radius: 0 100%;
     z-index: 10;
     transform: rotate(20deg); 
-    animation: .8s uni-head linear infinite;
+    /* animation: .8s uni-head linear infinite; */
 }
 .uni__head:before {
     content: '';
@@ -1352,8 +1352,8 @@
     height: 60px;
     border-radius: 100% 100% 0 100%;
     background: white;
-    animation: .8s uni-cloud linear infinite;
-    animation-delay: -.2s;
+    /* animation: .8s uni-cloud linear infinite;
+    animation-delay: -.2s; */
     opacity: .6;
 }
 .uni__cloud-1:before {
@@ -1385,8 +1385,8 @@
     height: 34px;
     border-radius: 100% 100% 100% 0;
     background: white;
-    animation: .8s uni-cloud linear infinite;
-    animation-delay: -.5s;
+    /* animation: .8s uni-cloud linear infinite;
+    animation-delay: -.5s; */
     opacity: .6;
 }
 .uni__cloud-2:before {
@@ -1418,8 +1418,8 @@
     height: 34px;
     border-radius: 100% 100% 100% 0;
     background: white;
-    animation: .8s uni-cloud linear infinite;
-    animation-delay: -.8s;
+    /* animation: .8s uni-cloud linear infinite;
+    animation-delay: -.8s; */
     opacity: .6;
 }
 .uni__cloud-3:before {
@@ -1494,13 +1494,13 @@
   /* 0%    { top: 135px; left: 0px; transform: rotate(43deg); }
   5%    { top: 135px; left: 0px; transform: rotate(53deg); }
   10%   { top: 135px; left: 0px; transform: rotate(77deg); }
-  15%   { top: 135px; left: 0px; transform: rotate(94deg); }*/
+  15%   { top: 135px; left: 0px; transform: rotate(94deg); }
   20%   { top: 135px; left: 0px; transform: rotate(114deg); }
-  /*25%   { top: 135px; left: 0px; transform: rotate(130deg); }
+  25%   { top: 135px; left: 0px; transform: rotate(130deg); }
   30%   { top: 135px; left: 0px; transform: rotate(152deg); }
-  35%   { top: 132px; left: 0px; transform: rotate(172deg); }
+  35%   { top: 132px; left: 0px; transform: rotate(172deg); }*/
   40%   { top: 131px; left: 0px; transform: rotate(192deg); }
-  45%   { top: 126px; left: 0px; transform: rotate(212deg); }
+  /*45%   { top: 126px; left: 0px; transform: rotate(212deg); }
   50%   { top: 126px; left: 0px; transform: rotate(232deg); }
   55%   { top: 130px; left: 0px; transform: rotate(242deg); }
   60%   { top: 130px; left: 0px; transform: rotate(252deg); }
@@ -1517,13 +1517,13 @@
   /* 0%    { transform: rotate(-94deg); }
   5%    { transform: rotate(-106deg); }
   10%   { transform: rotate(-130deg); }
-  15%   { transform: rotate(-146deg); }*/
+  15%   { transform: rotate(-146deg); }
   20%   { transform: rotate(-170deg); }
-  /*25%   { transform: rotate(-187deg); }
+  25%   { transform: rotate(-187deg); }
   30%   { transform: rotate(-213deg); }
-  35%   { transform: rotate(-233deg); }
+  35%   { transform: rotate(-233deg); }*/
   40%   { transform: rotate(-253deg); }
-  45%   { transform: rotate(-273deg); }
+  /*45%   { transform: rotate(-273deg); }
   50%   { transform: rotate(-293deg); }
   55%   { transform: rotate(-303deg); }
   60%   { transform: rotate(-314deg); }
@@ -1606,27 +1606,27 @@
   100%  { top: 90px; left: 233px; transform: rotate(-90deg); }
 }
 @keyframes uni-head-tube {
-  0%    { top: 44px; left: 246px; transform: rotate(-10deg); }
-  5%    { top: 44px; left: 246px; transform: rotate(-10deg); }
-  10%   { top: 44px; left: 246px; transform: rotate(-10deg); }
-  15%   { top: 48px; left: 246px; transform: rotate(-8deg); }
-  20%   { top: 51px; left: 246px; transform: rotate(-11deg); }
-  25%   { top: 55px; left: 246px; transform: rotate(-8deg); }
-  30%   { top: 59px; left: 246px; transform: rotate(-8deg); }
-  35%   { top: 59px; left: 247px; transform: rotate(-10deg); }
-  40%   { top: 63px; left: 246px; transform: rotate(-6deg); }
-  45%   { top: 66px; left: 246px; transform: rotate(-6deg); }
-  50%   { top: 68px; left: 246px; transform: rotate(-6deg); }
-  55%   { top: 68px; left: 245px; transform: rotate(-8deg); }
-  60%   { top: 67px; left: 245px; transform: rotate(-8deg); }
-  65%   { top: 65px; left: 245px; transform: rotate(-8deg); }
-  70%   { top: 62px; left: 245px; transform: rotate(-8deg); }
-  75%   { top: 56px; left: 245px; transform: rotate(-9deg); }
-  80%   { top: 50px; left: 245px; transform: rotate(-11deg); }
-  85%   { top: 47px; left: 245px; transform: rotate(-11deg); }
-  90%   { top: 45px; left: 245px; transform: rotate(-11deg); }
-  95%   { top: 44px; left: 245px; transform: rotate(-11deg); }
-  100%  { top: 44px; left: 246px; transform: rotate(-10deg); }
+  0%    { top: 104px; left: 246px; transform: rotate(-10deg); }
+  5%    { top: 104px; left: 246px; transform: rotate(-10deg); }
+  10%   { top: 104px; left: 246px; transform: rotate(-10deg); }
+  15%   { top: 98px; left: 246px; transform: rotate(-8deg); }
+  20%   { top: 101px; left: 246px; transform: rotate(-11deg); }
+  25%   { top: 105px; left: 246px; transform: rotate(-8deg); }
+  30%   { top: 109px; left: 246px; transform: rotate(-8deg); }
+  35%   { top: 109px; left: 247px; transform: rotate(-10deg); }
+  40%   { top: -13px; left: 66px; transform: rotate(20deg); }
+  45%   { top: -16px; left: 66px; transform: rotate(20deg); }
+  50%   { top: -18px; left: 66px; transform: rotate(20deg); }
+  55%   { top: -18px; left: 65px; transform: rotate(18deg); }
+  60%   { top: -17px; left: 65px; transform: rotate(18deg); }
+  65%   { top: -15px; left: 65px; transform: rotate(18deg); }
+  70%   { top: -12px; left: 65px; transform: rotate(18deg); }
+  75%   { top: -6px; left: 65px; transform: rotate(19deg); }
+  80%   { top: -10px; left: 65px; transform: rotate(21deg); }
+  85%   { top: -7px; left: 65px; transform: rotate(21deg); }
+  90%   { top: -5px; left: 65px; transform: rotate(21deg); }
+  95%   { top: -4px; left: 65px; transform: rotate(21deg); }
+  100%  { top: -4px; left: 66px; transform: rotate(0deg); }
 }
 @keyframes uni-helm {
   0%    { top: 22px; left: 242px; transform: rotate(-15deg); }
@@ -1700,25 +1700,25 @@
 
 @keyframes uni-man {
   0%    { top: 60px; left: 280px; }
-  5%    { top: 63px; left: 276px; }
-  10%   { top: 71px; left: 267px; }
-  15%   { top: 78px; left: 259px; }
-  20%   { top: 86px; left: 255px; }
-  25%   { top: 96px; left: 256px; }
-  30%   { top: 100px; left: 259px; }
-  35%   { top: 98px; left: 268px; }
-  40%   { top: 93px; left: 278px; }
-  45%   { top: 88px; left: 285px; }
-  50%   { top: 86px; left: 287px; }
-  55%   { top: 86px; left: 283px; }
-  60%   { top: 89px; left: 273px; }
-  65%   { top: 92px; left: 261px; }
-  70%   { top: 93px; left: 252px; }
-  75%   { top: 90px; left: 252px; }
-  80%   { top: 83px; left: 257px; }
-  85%   { top: 74px; left: 266px; }
-  90%   { top: 70px; left: 274px; }
-  95%   { top: 67px; left: 279px; }
+  5%    { top: 61px; left: 278px; }
+  10%   { top: 63px; left: 275px; }
+  15%   { top: 64px; left: 270px; }
+  20%   { top: 67px; left: 268px; }
+  25%   { top: 70px; left: 269px; }
+  30%   { top: 72px; left: 270px; }
+  35%   { top: 71px; left: 275px; }
+  40%   { top: 70px; left: 278px; }
+  45%   { top: 67px; left: 282px; }
+  50%   { top: 66px; left: 283px; }
+  55%   { top: 66px; left: 281px; }
+  60%   { top: 67px; left: 277px; }
+  65%   { top: 69px; left: 271px; }
+  70%   { top: 70px; left: 268px; }
+  75%   { top: 69px; left: 268px; }
+  80%   { top: 66px; left: 269px; }
+  85%   { top: 63px; left: 274px; }
+  90%   { top: 62px; left: 277px; }
+  95%   { top: 61px; left: 278px; }
   100%  { top: 60px; left: 280px; }
 }
 @keyframes uni-butt {
@@ -1745,52 +1745,52 @@
   100%  {  }
 }
 @keyframes uni-shirt {
-  0%    { top: 25px; left: 32px; transform: rotate(14deg); }
-  5%    { top: 25px; left: 30px; transform: rotate(17deg); }
-  10%   { top: 22px; left: 31px; transform: rotate(20deg); }
-  15%   { top: 21px; left: 32px; transform: rotate(16deg); }
-  20%   { top: 21px; left: 33px; transform: rotate(16deg); }
-  25%   { top: 20px; left: 33px; transform: rotate(16deg); }
-  30%   { top: 19px; left: 33px; transform: rotate(16deg); }
-  35%   { top: 19px; left: 33px; transform: rotate(16deg); }
-  40%   { top: 20px; left: 33px; transform: rotate(16deg); }
-  45%   { top: 19px; left: 33px; transform: rotate(16deg); }
-  50%   { top: 18px; left: 34px; transform: rotate(19deg); }
-  55%   { top: 19px; left: 34px; transform: rotate(19deg); }
-  60%   { top: 19px; left: 34px; transform: rotate(19deg); }
-  65%   { top: 17px; left: 34px; transform: rotate(19deg); }
-  70%   { top: 17px; left: 34px; transform: rotate(19deg); }
-  75%   { top: 21px; left: 35px; transform: rotate(15deg); }
-  80%   { top: 22px; left: 32px; transform: rotate(15deg); }
-  85%   { top: 25px; left: 32px; transform: rotate(11deg); }
-  90%   { top: 25px; left: 32px; transform: rotate(11deg); }
-  95%   { top: 25px; left: 32px; transform: rotate(11deg); }
-  100%  { top: 25px; left: 30px; transform: rotate(14deg); }
+  0%    { top: 40px; left: 15px; transform: rotate(15deg); }
+  5%    { top: 40px; left: 14px; transform: rotate(16deg); }
+  10%   { top: 39px; left: 13px; transform: rotate(17deg); }
+  15%   { top: 38px; left: 15px; transform: rotate(16deg); }
+  20%   { top: 38px; left: 16px; transform: rotate(16deg); }
+  25%   { top: 36px; left: 16px; transform: rotate(16deg); }
+  30%   { top: 35px; left: 16px; transform: rotate(16deg); }
+  35%   { top: 35px; left: 16px; transform: rotate(16deg); }
+  40%   { top: 36px; left: 16px; transform: rotate(16deg); }
+  45%   { top: 35px; left: 16px; transform: rotate(16deg); }
+  50%   { top: 34px; left: 17px; transform: rotate(17deg); }
+  55%   { top: 35px; left: 17px; transform: rotate(17deg); }
+  60%   { top: 35px; left: 17px; transform: rotate(17deg); }
+  65%   { top: 34px; left: 17px; transform: rotate(17deg); }
+  70%   { top: 34px; left: 17px; transform: rotate(17deg); }
+  75%   { top: 35px; left: 18px; transform: rotate(15deg); }
+  80%   { top: 36px; left: 15px; transform: rotate(15deg); }
+  85%   { top: 40px; left: 15px; transform: rotate(13deg); }
+  90%   { top: 40px; left: 15px; transform: rotate(13deg); }
+  95%   { top: 40px; left: 15px; transform: rotate(13deg); }
+  100%  { top: 40px; left: 14px; transform: rotate(14deg); }
 }
 
 
 @keyframes uni-head {
-  0%    { top: -30px; left: 65px; transform: rotate(20deg); }
-  5%    { top: -30px; left: 67px; transform: rotate(20deg); }
-  10%   { top: -30px; left: 70px; transform: rotate(18deg); }
-  15%   { top: -30px; left: 71px; transform: rotate(18deg); }
-  20%   { top: -30px; left: 72px; transform: rotate(18deg); }
-  25%   { top: -30px; left: 73px; transform: rotate(17deg); }
-  30%   { top: -30px; left: 74px; transform: rotate(17deg); }
-  35%   { top: -29px; left: 72px; transform: rotate(17deg); }
-  40%   { top: -29px; left: 72px; transform: rotate(17deg); }
-  45%   { top: -29px; left: 73px; transform: rotate(17deg); }
-  50%   { top: -29px; left: 73px; transform: rotate(17deg); }
-  55%   { top: -29px; left: 74px; transform: rotate(17deg); }
-  60%   { top: -28px; left: 76px; transform: rotate(17deg); }
-  65%   { top: -28px; left: 77px; transform: rotate(17deg); }
-  70%   { top: -28px; left: 77px; transform: rotate(17deg); }
-  75%   { top: -27px; left: 75px; transform: rotate(17deg); }
-  80%   { top: -27px; left: 70px; transform: rotate(17deg); }
-  85%   { top: -27px; left: 66px; transform: rotate(14deg); }
-  90%   { top: -27px; left: 66px; transform: rotate(17deg); }
-  95%   { top: -30px; left: 65px; transform: rotate(20deg); }
-  100%  { top: -30px; left: 65px; transform: rotate(20deg); }
+  0%    { top: -12px; left: 60px; transform: rotate(20deg); }
+  5%    { top: -12px; left: 61px; transform: rotate(20deg); }
+  10%   { top: -12px; left: 62px; transform: rotate(18deg); }
+  15%   { top: -12px; left: 63px; transform: rotate(18deg); }
+  20%   { top: -12px; left: 64px; transform: rotate(18deg); }
+  25%   { top: -12px; left: 65px; transform: rotate(17deg); }
+  30%   { top: -12px; left: 66px; transform: rotate(17deg); }
+  35%   { top: -11px; left: 65px; transform: rotate(17deg); }
+  40%   { top: -11px; left: 65px; transform: rotate(17deg); }
+  45%   { top: -11px; left: 66px; transform: rotate(17deg); }
+  50%   { top: -11px; left: 66px; transform: rotate(17deg); }
+  55%   { top: -11px; left: 67px; transform: rotate(17deg); }
+  60%   { top: -10px; left: 68px; transform: rotate(17deg); }
+  65%   { top: -10px; left: 69px; transform: rotate(17deg); }
+  70%   { top: -10px; left: 70px; transform: rotate(17deg); }
+  75%   { top: -9px; left: 69px; transform: rotate(17deg); }
+  80%   { top: -9px; left: 63px; transform: rotate(17deg); }
+  85%   { top: -9px; left: 59px; transform: rotate(14deg); }
+  90%   { top: -9px; left: 59px; transform: rotate(17deg); }
+  95%   { top: -12px; left: 60px; transform: rotate(20deg); }
+  100%  { top: -12px; left: 60px; transform: rotate(20deg); }
 }
 
 
@@ -1965,13 +1965,13 @@
   /* 0%    { transform: rotate(-38deg); }
   5%    { transform: rotate(-31deg); }
   10%   { transform: rotate(-30deg); }
-  15%   { transform: rotate(-34deg); }*/
+  15%   { transform: rotate(-34deg); }
   20%   { transform: rotate(-34deg); }
-  /*25%   { transform: rotate(-64deg); }
-  30%   { transform: rotate(-67deg); }
-  35%   { transform: rotate(-69deg); }
-  40%   { transform: rotate(-69deg); }
-  45%   { transform: rotate(-71deg); }
+  25%   { transform: rotate(-36deg); }
+  30%   { transform: rotate(-40deg); }
+  35%   { transform: rotate(-58deg); }*/
+  40%   { transform: rotate(-70deg); }
+  /*45%   { transform: rotate(-71deg); }
   50%   { transform: rotate(-69deg); }
   55%   { transform: rotate(-65deg); }
   60%   { transform: rotate(-73deg); }
@@ -1988,13 +1988,13 @@
   /* 0%    { transform: rotate(79deg); }
   5%    { transform: rotate(75deg); }
   10%   { transform: rotate(83deg); }
-  15%   { transform: rotate(91deg); }*/
+  15%   { transform: rotate(91deg); }
   20%   { transform: rotate(98deg); }
-  /*25%   { transform: rotate(147deg); }
-  30%   { transform: rotate(154deg); }
-  35%   { transform: rotate(157deg); }
-  40%   { transform: rotate(155deg); }
-  45%   { transform: rotate(152deg); }
+  25%   { transform: rotate(106deg); }
+  30%   { transform: rotate(116deg); }
+  35%   { transform: rotate(131deg); }*/
+  40%   { transform: rotate(140deg); }
+  /*45%   { transform: rotate(152deg); }
   50%   { transform: rotate(145deg); }
   55%   { transform: rotate(135deg); }
   60%   { transform: rotate(128deg); }
@@ -2011,13 +2011,13 @@
   /* 0%    { transform: rotate(-40deg); }
   5%    { transform: rotate(-38deg); }
   10%   { transform: rotate(-40deg); }
-  15%   { transform: rotate(-40deg); }*/
+  15%   { transform: rotate(-40deg); }
   20%   { transform: rotate(-56deg); }
-  /*25%   { transform: rotate(-31deg); }
-  30%   { transform: rotate(-54deg); }
-  35%   { transform: rotate(-57deg); }
-  40%   { transform: rotate(-54deg); }
-  45%   { transform: rotate(-48deg); }
+  25%   { transform: rotate(-64deg); }
+  30%   { transform: rotate(-68deg); }
+  35%   { transform: rotate(-70deg); }*/
+  40%   { transform: rotate(-71deg); }
+  /*45%   { transform: rotate(-48deg); }
   50%   { transform: rotate(-52deg); }
   55%   { transform: rotate(-47deg); }
   60%   { transform: rotate(-10deg); }
@@ -2034,13 +2034,13 @@
   /* 0%    { transform: rotate(-70deg); }
   5%    { transform: rotate(-65deg); }
   10%   { transform: rotate(-60deg); }
-  15%   { transform: rotate(-51deg); }*/
+  15%   { transform: rotate(-51deg); }
   20%   { transform: rotate(-54deg); }
-  /*25%   { transform: rotate(-48deg); }
+  25%   { transform: rotate(-48deg); }
   30%   { transform: rotate(-30deg); }
-  35%   { transform: rotate(-28deg); }
+  35%   { transform: rotate(-28deg); }*/
   40%   { transform: rotate(-26deg); }
-  45%   { transform: rotate(-30deg); }
+  /*45%   { transform: rotate(-30deg); }
   50%   { transform: rotate(-20deg); }
   55%   { transform: rotate(-15deg); }
   60%   { transform: rotate(-39deg); }
